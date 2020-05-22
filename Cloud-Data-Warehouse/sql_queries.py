@@ -71,7 +71,7 @@ time_table_create = ("""
     CREATE TABLE IF NOT EXISTS time (
         start_time timestamp NOT NULL DISTKEY SORTKEY PRIMARY KEY, 
         hour int NOT NULL, day int NOT NULL, week int NOT NULL, 
-        month int NOT NULL, year int NOT NULL, weekday varchar NOT NULL);
+        month int NOT NULL, year int NOT NULL, weekday int NOT NULL);
 """)
 
 
