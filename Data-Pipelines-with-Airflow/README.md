@@ -40,4 +40,5 @@ Leading to the following graph:
 
 3. Then I runned the Airflow server and configured the `aws_credentials` and the `redshift` connection in the tab connections in Airflow UI. 
 
-4. Finnaly triggered the job. 
+4. Finally triggered the job. To double check, I checked the output in Redshift. 
+![output-redshift](output-redshift.png "Output of `songplays` table in redshift")
